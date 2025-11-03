@@ -30,7 +30,8 @@ const io = new Server(server, {
 // middlewares
 app.use(express.json());
 app.use(cors({
-    origin: "http://localhost:5173",
+    // origin: "http://localhost:5173",
+    origin: "https://votting-app-nkds.vercel.app",
     credentials: true
 }));
 
